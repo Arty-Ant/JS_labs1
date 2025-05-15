@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+        <title>Forth JavaScript lab</title>
+
+	</head>
+	<body>
+        <h1 style="color: blue;">Forth JavaScript lab</h1>
+        <script>
+            row = parseInt(prompt("Введите количество строк",""));
+            col = parseInt(prompt("Введите количество столбцов",""));
+            document.write("<table border=1>");
+                for(let i = 1; i<=row; i++) {
+                    document.write("<tr>");
+                        
+                    for(let j=1; j <= col; j++) {
+                        document.write("<td>");
+                        document.write(i*j);
+                        document.write("</td>");
+                    }
+                    document.write("</tr>");
+                }
+            document.write("</table>");
+        </script>
+	</body>
+
+</html>
