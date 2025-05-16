@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+        <title>Seventh JavaScript lab</title>
+
+	</head>
+	<body>
+        <h1 style="color: blue;">Seventh JavaScript lab</h1>
+        <script>
+        function renderLink() {
+                document.write(`<a href="${this.url}">${this.title}</a> <br>`)
+        }
+        let link = new Object();
+        link.url='https://google.com';
+        link.title='Google';
+        link.render=renderLink;
+        link.render();
+        </script>
+	</body>
+
+</html>

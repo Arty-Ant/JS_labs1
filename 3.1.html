@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+        <title>Sixth JavaScript lab</title>
+
+	</head>
+	<body>
+        <h1 style="color: blue;">Sixth JavaScript lab</h1>
+        <script>
+        document.write (NOD (1071, 462)+"<br>");
+        document.write (NOD (462, 1071));
+        function NOD(a, b) {
+            let k3;
+            while ((k3=a%b)!=0) {
+                a=b;
+                b=k3;
+            }
+            return b;
+            
+    }
+        </script>
+	</body>
+
+</html>
