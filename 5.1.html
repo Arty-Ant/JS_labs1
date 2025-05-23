@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+        <title>Nineth JavaScript lab</title>
+
+	</head>
+	<body>
+        <h1 style="color: blue;">Nineth JavaScript lab</h1>
+        <script>
+        class Link {
+                title;
+                url;
+                constructor (title, url) {
+                        this.title=title;
+                        this.url=url;
+                }
+                render() {
+                    document.write(`<a href="${this.url}">${this.title}</a> <br>`)    
+                }
+        }
+        let newLink = new Link (`Google`, `https://google.com`)
+        newLink.render();
+        </script>
+	</body>
+
+</html>
